@@ -1,0 +1,12 @@
+﻿<Window x:Class="EncryptCert.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <TextBox x:Name="text">abc</TextBox>
+        <Button Click="EncyptClick">Encrypt</Button>
+        <Button Click="DecryptClick">Decrypt</Button>
+        <Button Click="ConnectionString">Connection String</Button>
+        <ListBox x:Name="results"></ListBox>
+    </StackPanel>
+</Window>
